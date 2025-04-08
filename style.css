@@ -78,8 +78,16 @@ body {
     font-weight: bold;
 }
 
-.abas-texto{
-    background-color: var(--texto-fundo);
+.aba-textos{
+    background-color: #25295f;
     padding: 40px;
     border-radius: 0 0 40px 40px;
+}
+
+.aba-conteudo.ativo{
+    display: block;
+}
+
+.aba-conteudo{
+    display: none;
 }
